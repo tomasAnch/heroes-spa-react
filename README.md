@@ -2,7 +2,7 @@
 
 Este proyecto fue creado siguiendo el curso de React de Fernando Herrera
 
-Una aplicación web sencilla y emocionante para explorar los héroes de Marvel y DC Universe. Esta aplicación utiliza React.js y ofrece características interesantes como un buscador con query params, autenticación de usuario, y rutas públicas y privadas.
+Una Single Page Application para explorar los héroes de Marvel y DC. Esta aplicación utiliza React.js y ofrece características interesantes como un buscador con query params, autenticación de usuario, y rutas públicas y privadas.
 
 ---
 
