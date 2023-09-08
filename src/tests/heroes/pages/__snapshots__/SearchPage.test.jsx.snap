@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchPage /> Debe mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <div
+    class="grid grid-cols-2 gap-14 justify-center items-center place-content-center mx-auto text-white"
+  >
+    <div
+      class="col-span-1 py-12"
+    >
+      <h1
+        class="font-poppins font-bold text-center text-3xl"
+      >
+        Search a Hero!
+      </h1>
+      <form
+        aria-label="form"
+        class="pt-12"
+      >
+        <label
+          class="mb-2 text-sm font-medium sr-only text-white"
+          for="search"
+        >
+          Search
+        </label>
+        <div
+          class="relative"
+        >
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 text-gray-400"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <input
+            autocomplete="off"
+            class="block w-72 px-6 py-4 pl-10 text-sm border rounded-lg bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+            name="searchText"
+            placeholder="In which hero are you in?"
+            type="text"
+            value=""
+          />
+          <button
+            class="text-white absolute right-2.5 bottom-2.5 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 bg-blue-900 hover:bg-blue-700 focus:ring-blue-800"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="col-span-1 py-12 -mt-2"
+    >
+      <h1
+        class="font-poppins font-bold text-center text-3xl"
+      >
+        Results
+      </h1>
+      <div
+        class="pt-12"
+      >
+        <div
+          class="px-6 bg-gray-700 py-4 mx-auto -mb-1.5 border rounded-lg"
+        >
+          <p>
+            Hero
+          </p>
+        </div>
+        <div
+          aria-label="alert-error"
+          class="px-6 bg-red-400 py-4 mx-auto my-4 border rounded-lg"
+          style="display: none;"
+        >
+          <p
+            class="text-red-900"
+          >
+            There's no result for 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
